@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1BFCF501C97B87F00E17569 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1BFCF4F1C97B87F00E17569 /* main.m */; };
+		C1BFCF531C97B87F00E17569 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1BFCF521C97B87F00E17569 /* AppDelegate.m */; };
+		C1BFCF561C97B87F00E17569 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1BFCF551C97B87F00E17569 /* ViewController.m */; };
+		C1BFCF591C97B87F00E17569 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1BFCF571C97B87F00E17569 /* Main.storyboard */; };
+		C1BFCF5B1C97B87F00E17569 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1BFCF5A1C97B87F00E17569 /* Assets.xcassets */; };
+		C1BFCF5E1C97B87F00E17569 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1BFCF5C1C97B87F00E17569 /* LaunchScreen.storyboard */; };
+		C1BFCF691C97B87F00E17569 /* GHPay_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1BFCF681C97B87F00E17569 /* GHPay_demoTests.m */; };
+		C1BFCF741C97B87F00E17569 /* GHPay_demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1BFCF731C97B87F00E17569 /* GHPay_demoUITests.m */; };
+		C1EA63C11C97E3FA001534F6 /* ApplePay.png in Resources */ = {isa = PBXBuildFile; fileRef = C1EA63BF1C97E3FA001534F6 /* ApplePay.png */; };
+		C1EA63C41C97E424001534F6 /* WechatPay.png in Resources */ = {isa = PBXBuildFile; fileRef = C1EA63C31C97E424001534F6 /* WechatPay.png */; };
+		C1EA63C61C97E8DE001534F6 /* AliPay.png in Resources */ = {isa = PBXBuildFile; fileRef = C1EA63C51C97E8DE001534F6 /* AliPay.png */; };
+		C1EA63CB1C97EDC5001534F6 /* accessory_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = C1EA63C91C97EDC5001534F6 /* accessory_normal.png */; };
+		C1EA63CC1C97EDC5001534F6 /* accessory_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = C1EA63CA1C97EDC5001534F6 /* accessory_selected.png */; };
+		C1EA63CF1C97EE33001534F6 /* GHPayTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C1EA63CE1C97EE33001534F6 /* GHPayTableViewCell.m */; };
+		C1EA63D41C97F90F001534F6 /* UIImage+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = C1EA63D31C97F90F001534F6 /* UIImage+Utils.m */; };
+		C1EA63D61C98004F001534F6 /* 效果图.png in Resources */ = {isa = PBXBuildFile; fileRef = C1EA63D51C98004F001534F6 /* 效果图.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1BFCF651C97B87F00E17569 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1BFCF431C97B87F00E17569 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1BFCF4A1C97B87F00E17569;
+			remoteInfo = "GHPay-demo";
+		};
+		C1BFCF701C97B87F00E17569 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1BFCF431C97B87F00E17569 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1BFCF4A1C97B87F00E17569;
+			remoteInfo = "GHPay-demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C1BFCF4B1C97B87F00E17569 /* GHPay-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GHPay-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1BFCF4F1C97B87F00E17569 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C1BFCF511C97B87F00E17569 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C1BFCF521C97B87F00E17569 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C1BFCF541C97B87F00E17569 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C1BFCF551C97B87F00E17569 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C1BFCF581C97B87F00E17569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1BFCF5A1C97B87F00E17569 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1BFCF5D1C97B87F00E17569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1BFCF5F1C97B87F00E17569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1BFCF641C97B87F00E17569 /* GHPay-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GHPay-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1BFCF681C97B87F00E17569 /* GHPay_demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHPay_demoTests.m; sourceTree = "<group>"; };
+		C1BFCF6A1C97B87F00E17569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1BFCF6F1C97B87F00E17569 /* GHPay-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GHPay-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1BFCF731C97B87F00E17569 /* GHPay_demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHPay_demoUITests.m; sourceTree = "<group>"; };
+		C1BFCF751C97B87F00E17569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1EA63BF1C97E3FA001534F6 /* ApplePay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ApplePay.png; sourceTree = "<group>"; };
+		C1EA63C31C97E424001534F6 /* WechatPay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WechatPay.png; sourceTree = "<group>"; };
+		C1EA63C51C97E8DE001534F6 /* AliPay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AliPay.png; sourceTree = "<group>"; };
+		C1EA63C91C97EDC5001534F6 /* accessory_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = accessory_normal.png; sourceTree = "<group>"; };
+		C1EA63CA1C97EDC5001534F6 /* accessory_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = accessory_selected.png; sourceTree = "<group>"; };
+		C1EA63CD1C97EE33001534F6 /* GHPayTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHPayTableViewCell.h; sourceTree = "<group>"; };
+		C1EA63CE1C97EE33001534F6 /* GHPayTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHPayTableViewCell.m; sourceTree = "<group>"; };
+		C1EA63D21C97F90F001534F6 /* UIImage+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Utils.h"; sourceTree = "<group>"; };
+		C1EA63D31C97F90F001534F6 /* UIImage+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Utils.m"; sourceTree = "<group>"; };
+		C1EA63D51C98004F001534F6 /* 效果图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "效果图.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1BFCF481C97B87F00E17569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1BFCF611C97B87F00E17569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1BFCF6C1C97B87F00E17569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1BFCF421C97B87F00E17569 = {
+			isa = PBXGroup;
+			children = (
+				C1BFCF4D1C97B87F00E17569 /* GHPay-demo */,
+				C1BFCF671C97B87F00E17569 /* GHPay-demoTests */,
+				C1BFCF721C97B87F00E17569 /* GHPay-demoUITests */,
+				C1BFCF4C1C97B87F00E17569 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1BFCF4C1C97B87F00E17569 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1BFCF4B1C97B87F00E17569 /* GHPay-demo.app */,
+				C1BFCF641C97B87F00E17569 /* GHPay-demoTests.xctest */,
+				C1BFCF6F1C97B87F00E17569 /* GHPay-demoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1BFCF4D1C97B87F00E17569 /* GHPay-demo */ = {
+			isa = PBXGroup;
+			children = (
+				C1EA63BD1C97E3FA001534F6 /* Resources */,
+				C1EA63D21C97F90F001534F6 /* UIImage+Utils.h */,
+				C1EA63D31C97F90F001534F6 /* UIImage+Utils.m */,
+				C1EA63CD1C97EE33001534F6 /* GHPayTableViewCell.h */,
+				C1EA63CE1C97EE33001534F6 /* GHPayTableViewCell.m */,
+				C1BFCF541C97B87F00E17569 /* ViewController.h */,
+				C1BFCF551C97B87F00E17569 /* ViewController.m */,
+				C1BFCF511C97B87F00E17569 /* AppDelegate.h */,
+				C1BFCF521C97B87F00E17569 /* AppDelegate.m */,
+				C1BFCF571C97B87F00E17569 /* Main.storyboard */,
+				C1BFCF5A1C97B87F00E17569 /* Assets.xcassets */,
+				C1BFCF5C1C97B87F00E17569 /* LaunchScreen.storyboard */,
+				C1BFCF5F1C97B87F00E17569 /* Info.plist */,
+				C1BFCF4E1C97B87F00E17569 /* Supporting Files */,
+			);
+			path = "GHPay-demo";
+			sourceTree = "<group>";
+		};
+		C1BFCF4E1C97B87F00E17569 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1BFCF4F1C97B87F00E17569 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1BFCF671C97B87F00E17569 /* GHPay-demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1BFCF681C97B87F00E17569 /* GHPay_demoTests.m */,
+				C1BFCF6A1C97B87F00E17569 /* Info.plist */,
+			);
+			path = "GHPay-demoTests";
+			sourceTree = "<group>";
+		};
+		C1BFCF721C97B87F00E17569 /* GHPay-demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C1BFCF731C97B87F00E17569 /* GHPay_demoUITests.m */,
+				C1BFCF751C97B87F00E17569 /* Info.plist */,
+			);
+			path = "GHPay-demoUITests";
+			sourceTree = "<group>";
+		};
+		C1EA63BD1C97E3FA001534F6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C1EA63D51C98004F001534F6 /* 效果图.png */,
+				C1EA63BE1C97E3FA001534F6 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C1EA63BE1C97E3FA001534F6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C1EA63C91C97EDC5001534F6 /* accessory_normal.png */,
+				C1EA63CA1C97EDC5001534F6 /* accessory_selected.png */,
+				C1EA63C51C97E8DE001534F6 /* AliPay.png */,
+				C1EA63C31C97E424001534F6 /* WechatPay.png */,
+				C1EA63BF1C97E3FA001534F6 /* ApplePay.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1BFCF4A1C97B87F00E17569 /* GHPay-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1BFCF781C97B87F00E17569 /* Build configuration list for PBXNativeTarget "GHPay-demo" */;
+			buildPhases = (
+				C1BFCF471C97B87F00E17569 /* Sources */,
+				C1BFCF481C97B87F00E17569 /* Frameworks */,
+				C1BFCF491C97B87F00E17569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GHPay-demo";
+			productName = "GHPay-demo";
+			productReference = C1BFCF4B1C97B87F00E17569 /* GHPay-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1BFCF631C97B87F00E17569 /* GHPay-demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1BFCF7B1C97B87F00E17569 /* Build configuration list for PBXNativeTarget "GHPay-demoTests" */;
+			buildPhases = (
+				C1BFCF601C97B87F00E17569 /* Sources */,
+				C1BFCF611C97B87F00E17569 /* Frameworks */,
+				C1BFCF621C97B87F00E17569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1BFCF661C97B87F00E17569 /* PBXTargetDependency */,
+			);
+			name = "GHPay-demoTests";
+			productName = "GHPay-demoTests";
+			productReference = C1BFCF641C97B87F00E17569 /* GHPay-demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C1BFCF6E1C97B87F00E17569 /* GHPay-demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1BFCF7E1C97B87F00E17569 /* Build configuration list for PBXNativeTarget "GHPay-demoUITests" */;
+			buildPhases = (
+				C1BFCF6B1C97B87F00E17569 /* Sources */,
+				C1BFCF6C1C97B87F00E17569 /* Frameworks */,
+				C1BFCF6D1C97B87F00E17569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1BFCF711C97B87F00E17569 /* PBXTargetDependency */,
+			);
+			name = "GHPay-demoUITests";
+			productName = "GHPay-demoUITests";
+			productReference = C1BFCF6F1C97B87F00E17569 /* GHPay-demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1BFCF431C97B87F00E17569 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "com.joinup(Beijing)";
+				TargetAttributes = {
+					C1BFCF4A1C97B87F00E17569 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					C1BFCF631C97B87F00E17569 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = C1BFCF4A1C97B87F00E17569;
+					};
+					C1BFCF6E1C97B87F00E17569 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = C1BFCF4A1C97B87F00E17569;
+					};
+				};
+			};
+			buildConfigurationList = C1BFCF461C97B87F00E17569 /* Build configuration list for PBXProject "GHPay-demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1BFCF421C97B87F00E17569;
+			productRefGroup = C1BFCF4C1C97B87F00E17569 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1BFCF4A1C97B87F00E17569 /* GHPay-demo */,
+				C1BFCF631C97B87F00E17569 /* GHPay-demoTests */,
+				C1BFCF6E1C97B87F00E17569 /* GHPay-demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1BFCF491C97B87F00E17569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1EA63C41C97E424001534F6 /* WechatPay.png in Resources */,
+				C1EA63C61C97E8DE001534F6 /* AliPay.png in Resources */,
+				C1BFCF5E1C97B87F00E17569 /* LaunchScreen.storyboard in Resources */,
+				C1EA63D61C98004F001534F6 /* 效果图.png in Resources */,
+				C1BFCF5B1C97B87F00E17569 /* Assets.xcassets in Resources */,
+				C1BFCF591C97B87F00E17569 /* Main.storyboard in Resources */,
+				C1EA63CC1C97EDC5001534F6 /* accessory_selected.png in Resources */,
+				C1EA63C11C97E3FA001534F6 /* ApplePay.png in Resources */,
+				C1EA63CB1C97EDC5001534F6 /* accessory_normal.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1BFCF621C97B87F00E17569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1BFCF6D1C97B87F00E17569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1BFCF471C97B87F00E17569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1BFCF561C97B87F00E17569 /* ViewController.m in Sources */,
+				C1BFCF531C97B87F00E17569 /* AppDelegate.m in Sources */,
+				C1BFCF501C97B87F00E17569 /* main.m in Sources */,
+				C1EA63CF1C97EE33001534F6 /* GHPayTableViewCell.m in Sources */,
+				C1EA63D41C97F90F001534F6 /* UIImage+Utils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1BFCF601C97B87F00E17569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1BFCF691C97B87F00E17569 /* GHPay_demoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1BFCF6B1C97B87F00E17569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1BFCF741C97B87F00E17569 /* GHPay_demoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1BFCF661C97B87F00E17569 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1BFCF4A1C97B87F00E17569 /* GHPay-demo */;
+			targetProxy = C1BFCF651C97B87F00E17569 /* PBXContainerItemProxy */;
+		};
+		C1BFCF711C97B87F00E17569 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1BFCF4A1C97B87F00E17569 /* GHPay-demo */;
+			targetProxy = C1BFCF701C97B87F00E17569 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1BFCF571C97B87F00E17569 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1BFCF581C97B87F00E17569 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1BFCF5C1C97B87F00E17569 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1BFCF5D1C97B87F00E17569 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1BFCF761C97B87F00E17569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C1BFCF771C97B87F00E17569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1BFCF791C97B87F00E17569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "GHPay-demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.GHPay-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C1BFCF7A1C97B87F00E17569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "GHPay-demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.GHPay-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C1BFCF7C1C97B87F00E17569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "GHPay-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.GHPay-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GHPay-demo.app/GHPay-demo";
+			};
+			name = Debug;
+		};
+		C1BFCF7D1C97B87F00E17569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "GHPay-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.GHPay-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GHPay-demo.app/GHPay-demo";
+			};
+			name = Release;
+		};
+		C1BFCF7F1C97B87F00E17569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "GHPay-demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.GHPay-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "GHPay-demo";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C1BFCF801C97B87F00E17569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "GHPay-demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.GHPay-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "GHPay-demo";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1BFCF461C97B87F00E17569 /* Build configuration list for PBXProject "GHPay-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1BFCF761C97B87F00E17569 /* Debug */,
+				C1BFCF771C97B87F00E17569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1BFCF781C97B87F00E17569 /* Build configuration list for PBXNativeTarget "GHPay-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1BFCF791C97B87F00E17569 /* Debug */,
+				C1BFCF7A1C97B87F00E17569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1BFCF7B1C97B87F00E17569 /* Build configuration list for PBXNativeTarget "GHPay-demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1BFCF7C1C97B87F00E17569 /* Debug */,
+				C1BFCF7D1C97B87F00E17569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1BFCF7E1C97B87F00E17569 /* Build configuration list for PBXNativeTarget "GHPay-demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1BFCF7F1C97B87F00E17569 /* Debug */,
+				C1BFCF801C97B87F00E17569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1BFCF431C97B87F00E17569 /* Project object */;
+}
